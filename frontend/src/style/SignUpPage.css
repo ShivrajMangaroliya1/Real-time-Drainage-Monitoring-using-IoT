@@ -1,0 +1,56 @@
+.image {
+  background-image: url("../svg//back.png");
+  /* "https://images.pexels.com/photos/10305718/pexels-photo-10305718.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" */
+  background-size: cover;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+.icon {
+  position: absolute;
+  top: -20;
+  left: 50;
+}
+
+/* .margin {
+    margin-left: 20rem;
+    margin-right: 20rem;
+  } */
+.overlay {
+  /* background-color: rgba(12, 77, 175, 0.5); */
+  /* background: rgb(2, 0, 36); */
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 0.5) 0%,
+    rgba(82, 9, 121, 0.5) 33%,
+    rgba(0, 212, 255, 0.5) 100%
+  );
+  /* background-image: linear-gradient(to right, #da22ff, #9733ee); */
+}
+
+.position-overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  min-height: 100vh;
+  min-width: 100vw;
+  z-index: 0;
+}
+
+.color {
+  color: white;
+  font-weight: 900;
+  /* background-color: black; */
+  position: relative;
+  z-index: 2;
+  min-height: "30vh";
+}
+
+.bg-input {
+  background-color: "#27293D";
+}
+
+input:active,
+input:focus {
+  border: 1px solid red;
+}
